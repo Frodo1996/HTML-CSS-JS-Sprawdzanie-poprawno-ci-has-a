@@ -3,6 +3,7 @@ const passwordInput = document.getElementById("password");
 const confirmPasswordInput = document.getElementById("confirm-password");
 const errorMsg = document.getElementById("error-msg");
 
+
 passwordInput.addEventListener("input", function (event) {
   const password = event.target.value;
   let errorMessages = [];
